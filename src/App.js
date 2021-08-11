@@ -31,13 +31,29 @@ function App() {
     setMenuItems(newItems);
   };
 
+  class Person {
+    constructor(name) {
+      this.name = name;
+    }
+    walk() {
+      console.log(`walk ${this.name}`);
+    }
+  }
+
+  const per1 = new Person("brian");
+  console.log(per1);
+  per1.walk();
+
   return (
     <main>
       <section className="menu section">
-        <div className="title">
-          <h2>Our Menu</h2>
-          <div className="underline"></div>
+        <div className="title-container">
+          <div className="title">
+            <h2>Jabee Favorites</h2>
+            <div className="underline"></div>
+          </div>
         </div>
+
         <Categories categories={categories} filterFunc={filterItems} />
         <Menu items={menuItems} />
       </section>

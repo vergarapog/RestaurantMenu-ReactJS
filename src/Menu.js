@@ -11,10 +11,9 @@ const Menu = ({ items }) => {
             <div className="item-info">
               <header>
                 <h4>{title}</h4>
-                <div className="price">${price}</div>
+                <div className="price">₱{price}</div>
               </header>
               <p className="item-text">{desc}</p>
-              
             </div>
           </article>
         );
