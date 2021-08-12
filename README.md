@@ -2,7 +2,7 @@
 
 My Jolibee favorites in a menu made with reactJS
 
-![alt text](https://raw.githubusercontent.com/vergarapog/pomo-todo/main/public/images/pomo.jpg "Sample image of web app")
+[Live Site](https://jabeefavs.netlify.app/)
 
 [View my Portofolio](https://brianvergara.netlify.app/)
 
@@ -12,6 +12,7 @@ React Skills used in this app
 - Parent and child components
 
 CSS Skills used in this app
-- Native CSS
+- Native CSS variables
+- Mobile Responsive / Media Queries
 - Flexbox
 - Grid
