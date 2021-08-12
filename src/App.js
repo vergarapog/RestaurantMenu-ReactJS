@@ -49,7 +49,7 @@ function App() {
       <section className="menu section">
         <div className="title-container">
           <div className="title">
-            <h2>Jabee Favorites</h2>
+            <h2>Jolibee Favorites</h2>
             <div className="underline"></div>
           </div>
         </div>
